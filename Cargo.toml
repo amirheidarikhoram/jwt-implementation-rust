@@ -1,0 +1,13 @@
+[package]
+name = "jwt_implementation_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.79"
+hmac = "0.12.1"
+sha2 = "0.10.2"
+chrono = { version = "0.4", features = ["serde"] }
+base64 = "0.13.0"
